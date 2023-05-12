@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Martin Kondov</title>
+  <link rel="stylesheet" href="assets/css/color.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+  
+  <link href="assets/css/lity.min.css" rel="stylesheet">
+  <style>
+  
+  ul{
+  	list-style:circle;
+  }
+  </style>
+</head>
+<body>
+
+
+<!--Switcher-->
+  <div class="style-switcher" style="display:none">
+    <span class="style-switcher__control"></span>
+    <div class="style-switcher__list">
+      <a class="style-switcher__link style-switcher__link--color"></a>
+      <a class="style-switcher__link style-switcher__link--mono"></a>
+    </div>
+  </div>
+<!--Switcher-->
+
+<!--Main menu-->
+  <div class="menu" style="display:none">
+    <div class="container">
+      <div class="row">
+        <div class="menu__wrapper d-none d-lg-block col-md-12">
+          <nav class="">
+            <ul>
+              <li><a href="/de.html">Deutsch</a></li>
+              <li><a href="/en.html">English</a></li>
+              <li><a href="/ru.html">Русский</a></li>
+              <li><a href="/bg.html">Български</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__wrapper col-md-12 d-lg-none">
+          <button type="button" class="menu__mobile-button">
+            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Main menu-->
+
+<!-- Mobile menu -->
+  <div class="mobile-menu d-lg-none" style="display:none">
+    <div class="container">
+      <div class="mobile-menu__close">
+        <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+      </div>
+      <nav class="mobile-menu__wrapper">
+        <ul>
+           	 <li><a href="/de.html">Deutsch</a></li>
+              <li><a href="/en.html">English</a></li>
+              <li><a href="/ru.html">Русский</a></li>
+              <li><a href="/bg.html">Български</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+<!-- Mobile menu -->
+
+<!--Header-->
+  <header class="main-header" style="background-image: url(assets/img/martin_kondov.jpg)">
+    <div class="container">
+      <div class="row personal-profile">
+        <div class="col-md-4 personal-profile__avatar">
+          <img class="" src="https://martinkondov.com/assets/img/martin_kondov.jpg" alt="Martin Kondov">
+        </div>
+        <div class="col-md-8">
+          <p class="personal-profile__name">Martin Kondov</p>
+          <p class="personal-profile__work">Software Developer</p>
+          <div class="personal-profile__contacts">
+            <dl class="contact-list contact-list__opacity-titles">
+              <dt>E-mail:</dt>
+              <dd><a href="mailto:martin.kondov@gmail.com">martin.kondov@gmail.com</a></dd>
+              <dt>Twitter:</dt>
+              <dd><a href="https://twitter.com/0xkondov">@0xkondov</a></dd>
+            </dl>
+          </div>
+          <p class="personal-profile__social">
+            <a href="https://github.com/mkondov" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/martin-kondov/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+<!--Header-->
+
+<!--Hello-->
+  <section id="hello" class="container section">
+    <div class="row">
+      <div class="col-md-10">
+        <h2 id="hello_header" class="section__title">Hi_</h2>
+        
+        
+		<p class="section__description">
+			Web Developer with <span id='years-experience'>over 7</span> years of experience. Passionate about Blockchain and Machine Learning-driven technologies.
+		
+			</br></br>
+			Skillset summary:</br>
+			<ul>
+			<li>Programming languages: Solidity, Python, Type/JavaScript, PHP</li>
+			<li>Frameworks: React.js, Slim</li>
+			<li>Databases: SQL & NoSQL</li>
+			<li>Messaging: RabbitMQ</li>
+			<li>Paradigms: Agile, Scrum, Microservices, Cloud (AWS), Event-Driven Architectures, REST, Design Patterns, Reactive Programming</li>
+			<li>OS: Linux / Windows</li>
+			</ul>
+		</p>
+        <a href="/MartinKondov_resume_en.pdf" target="_blank" class="section_btn site-btn"><img src="assets/img/img-download-btn.png" alt="">Download CV</a>
+      </div>
+    </div>
+  </section>
+<!--Hello-->
+
+  <hr>
+
+<!--Resume-->
+  <section id="resume" class="container section">
+    
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">Work Experience</h3>
+
+        <div class="resume-list__block">
+          <img class="" src="assets/img/portfolio/logo_kbc.jpg" style="object-fit: scale-down;width:150px" alt="Concord EU">
+          <p class="resume-list__block-title"><span style="color:#4e4e4e">Senior Data Engineer at</span> KBC Bank & Verzekering </p>
+          <p class="resume-list__block-date">2023 - current</p>
+          <p>
+            KBC Group is a Belgian universal multi-channel bank-insurer, focusing on private clients and small and medium-sized enterprises in Belgium, Bulgaria, Czechia, Hungary, and Slovakia.
+
+			    </p>
+			 <ul>
+               <li>Implementing data pipelines and machine learning algorithms for anti-money laundering classification </li>
+               </ul>
+                        
+			</br>
+        
+        </div>
+
+          <div class="resume-list__block">
+          <img class="" src="assets/img/portfolio/logo_concord.png" style="object-fit: scale-down;width:150px" alt="Concord EU">
+          <p class="resume-list__block-title"><span style="color:#4e4e4e">Full Stack Developer at</span> Concord EU </p>
+          <p class="resume-list__block-date">2022 - 2022</p>
+          <p>
+			Concord US's european branch. Concord is a consulting firm, focused on large scale clients.
+			</p>
+			 <ul>
+               <li>Part of a 30-person development team, developing the insurance broker portal of UnitedHealth Group (USA) </li>
+               </ul>
+                        
+			</br>
+        
+        </div>
+        
+        <div class="resume-list__block">
+          <img class="" src="assets/img/portfolio/logo_autofix24.webp" style="object-fit: scale-down;width:250px" alt="AutoFix24">
+          <p class="resume-list__block-title"><span style="color:#4e4e4e">Full Stack Developer at</span> AutoFix24.bg </p>
+          <p class="resume-list__block-date">2021 - 2022</p>
+          <p>
+			AutoFix24.bg is a custom-built eCommerce platform for the purpose of handling enormous product catalogues with efficient search algorithms and upsell/recommendations functionality.
+			</br> </br>
+			</p>
+			 <ul>
+                            <li>Developed a Hybrid PHP/WooCommerce eCommerce platform, scaled it to millions of products</li>
+                            <li>Implemented an automated listing, price and stock synchronization between all suppliers</li>
+                            <li>Wrote web spiders and data scrapers to gather and enrich auto parts and automobile data</li>
+              </ul>
+                        
+			</br>
+			<a href="//www.youtube.com/embed/01BstchIY-k" class="section_btn site-btn" data-lity><img src="assets/img/img-video-play-btn.png" style="height:24px;" alt="">Demo</a>
+       <!-- <a href="#" class="section_btn site-btn" target="_blank"><img src="assets/img/img-lock-btn.png" style="height:22px;background-color: #6d56c147;" alt="">Source</a> -->
+        
+        </div>
+        <div class="resume-list__block">
+          <img class="" src="assets/img/portfolio/logo_dalio.png" style="object-fit: scale-down;width:150px" alt="Dalio">
+          <p class="resume-list__block-title"><span style="color:#4e4e4e">Co-founder at</span> dalio.io (sold) </p>
+          <p class="resume-list__block-date">2020 - 2021</p>
+          <p>
+			Dalio is an online merchant application that runs on the local computer. It synchronizes inventory and orders between multiple online sales channels (such as Shopify, eBay, Facebook Marketplace, Amazon, WooCommerce, etc.).
+			</br> 
+			</br>
+			You can often find lower prices on one provider's site than on another. Merchants who take advantage of these differences need software to track any changes in price / availability and delivery.
+			</p>
+			</br>
+			 <ul>
+			 					<li>Built on the Electron Framework with React.js</li>
+                                <li>Automated the Chrome web browser to control user's eBay, Amazon and Shopify accounts in the background</li>
+                                <li>Implemented advanced in-app analytics to monitor user experience and catch bugs early</li>
+                                
+               </ul>
+			</br>
+			<a href="//www.youtube.com/embed/lSuN6rxYATA" class="section_btn site-btn" data-lity><img src="assets/img/img-video-play-btn.png" style="height:24px;" alt="">Demo</a>
+       <a href="https://github.com/mkondov/dalio" class="section_btn site-btn" target="_blank"><img src="assets/img/img-source-btn.png" style="height:22px;background-color: #6d56c147;" alt="">Source</a>
+        
+        </div>
+        <div class="resume-list__block">
+          <img class="" src="assets/img/portfolio/logo_dropship_lister.png" style="object-fit: scale-down;width:200px;margin-bottom:10px" alt="Dropship Lister">
+          <p class="resume-list__block-title"><span style="color:#4e4e4e">Full Stack Developer at</span> dropshiplister.com (sold) </p>
+          <p class="resume-list__block-date">2016 - 2020</p>
+           <p>
+         	 Online retailers publishing hundreds of items from different vendors need help speeding up the process and automating repetitive tasks.
+			</br> </br>
+   			Dropship Lister is an extension for Google Chrome Browser that allows the user to copy product ads from any website (images, description, price, features, etc.) and import them into the most popular e-commerce platforms (Shopify, eBay, Amazon , WooCommerce and others).
+          </p>
+          </br>
+           <ul>
+                                <li>Wrote and published a Chrome Extension to the Chrome Web Store</li>
+                                <li>Extension can copy entire product listings from any eCommerce website with 1 click</li>
+                                <li>Extension can import copied listings into eBay, Amazon, Shopify, as well as custom built eCommerce sites with 1 click</li>
+             </ul>
+                            
+          </br>
+          <a href="//www.youtube.com/embed/RtPsS6X_EZs" class="section_btn site-btn" data-lity><img src="assets/img/img-video-play-btn.png" style="height:24px;" alt="">Demo</a>
+        <a href="https://github.com/mkondov/dropshiplister" class="section_btn site-btn" target="_blank"><img src="assets/img/img-source-btn.png" style="height:24px;" alt="">Source</a>
+        
+        
+        </div>
+        <div class="resume-list__block">
+         <img class="" src="assets/img/portfolio/logo_headreach.png" style="object-fit: scale-down;width:100px;margin-left:-20px;margin-bottom:-10px" alt="HeadReach">
+          <p class="resume-list__block-title"><span style="color:#4e4e4e">Back-End Developer at</span> headreach.io (sold) </p>
+          <p class="resume-list__block-date">2015 - 2018</p>
+         <p>
+               The Marketing and Sales department in every company needs access to the contact details of key people in their sales target's organization.
+                </br> </br>
+                 HeadReach was a web platform that crawled websites, social networks, forums, etc. to collect publicly available contact information for managers from medium and large enterprises.
+                 </br></br> This database can then be searched by salesmen and recruitment agencies for a monthly subscription.
+                 </br></br>
+                 (HeadReach was acquired by LeadFuze in July 2018)
+           </p>
+           </br>
+           <ul>
+           						<li>Wrote a bot network of proxied web scrapers using Python to collect public company contact details</li>
+                                <li>Built an easy to navigate website with search functionality</li>
+                                <li>Implemented credit card and PayPal monthly subscription functionality</li>
+                            </ul>
+                </br>
+                <a href="//www.youtube.com/embed/CG3KR97UGVQ" class="section_btn site-btn" data-lity><img src="assets/img/img-video-play-btn.png" style="height:24px;" alt="">Demo</a>
+        <a href="https://github.com/mkondov/headreach" class="section_btn site-btn" target="_blank"><img src="assets/img/img-source-btn.png" style="height:24px;" alt="">Source</a>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="display:none">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">Education</h3>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title">Goethe University Frankfurt am Main </p>
+          <p class="resume-list__block-date">2015 - 2017</p>
+          <p>
+            (Orientation phase) Economics
+          </p>
+        </div>
+      </div>
+    </div>
+ <div class="row section__resume progress-list js-progress-list">
+      <div class="col-md-12">
+        <h3 class="progress-list__title">Tools</h3>
+      </div>
+      <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Solidity</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Python</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Type/JavaScript (Node.js)</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">PHP</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">HTML/CSS</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Django</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">React.js (Redux)</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Solidity</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Slim</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">WooCommerce</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">OpenCart</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">MySQL</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">NoSQL (MongoDB)</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title"></span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title"></span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row section__resume progress-list js-progress-list">
+    <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Agile</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Scrum</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Microservices</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Cloud (AWS)</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Event-Driven</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">REST</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Docker</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Kubernetes</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">RabbitMQ</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Memcache</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Redis</span>
+          </p>
+        </div>
+      </div>
+       <div class="col-md-3 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Linux</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Windows</span>
+          </p>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title"></span>
+          </p>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="row section__resume progress-list js-progress-list">
+      <div class="col-md-12">
+        <h3 class="progress-list__title">Languages</h3>
+      </div>
+      <div class="col-md-5 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Bulgarian</span>
+            <span class="progress-list__skill-value">Native</span>
+          </p>
+           <!--<div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+            </div>
+          </div>-->
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">English</span>
+            <span class="progress-list__skill-value">C2</span>
+          </p>
+           <!--<div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+            </div>
+          </div>-->
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">German</span>
+            <span class="progress-list__skill-value">C1</span>
+          </p>
+          <!-- <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+            </div>
+          </div>-->
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Russian</span>
+            <span class="progress-list__skill-value">B2</span>
+          </p>
+         <!-- <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+    
+  </section>
+<!--Resume-->
+
+<div class="background" style="background-image: url(assets/img/img_bg_main.jpg)">
+        <div id="contact" class="container section">
+        <div class="footer">
+                        <p>© 2023 Martin Kondov. All rights reserved.</p>
+                    </div>
+        </div>
+    </div>
+
+
+  <script src="assets/js/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/jquery.waypoints.js"></script>
+  <script src="assets/js/progress-list.js"></script>
+  <script src="assets/js/section.js"></script>
+  <script src="assets/js/portfolio-filter.js"></script>
+  <script src="assets/js/slider-carousel.js"></script>
+  <script src="assets/js/mobile-menu.js"></script>
+  <script src="assets/js/contacts.js"></script>
+  <script src="assets/js/mbclicker.min.js"></script>
+  <script src="assets/js/site-btn.js"></script>
+  <!-- <script src="assets/js/style-switcher.js"></script>-->
+  
+  <script src="assets/js/lity.min.js"></script>
+  
+</body>
+</html>
